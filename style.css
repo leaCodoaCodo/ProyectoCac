@@ -1,0 +1,42 @@
+html{
+    font-size:62.5%;
+  }
+  
+  .container {
+    position: relative;
+    border: solid green;
+    width: 100%;
+  }
+  
+  nav {
+    position: absolute;
+    left: 0rem;
+    width: 25%;
+    height: 100%;
+    border: solid violet;
+    background-color:pink;
+    font-size:2rem;
+    z-index:0;
+  }
+  section {
+    margin-left: 20rem;
+    border: solid orange;
+    font-family: Arial;
+    font-size:2rem;
+    width: 75%
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 9rem;
+    z-index:20;
+    background-color: white;
+    font-size:2rem;
+    width: 100%;
+    margin: 0;
+    border: solid greenyellow;
+  }
+  body {
+    margin-bottom: 120px;
+  }
